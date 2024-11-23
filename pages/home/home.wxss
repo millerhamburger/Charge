@@ -1,6 +1,8 @@
 page {
   box-sizing: border-box;
   padding-bottom: calc(env(safe-area-inset-bottom) + 96rpx);
+  /* background: linear-gradient(#fff, #f5f5f5); */
+  background-color: #f0f0f0;
 }
 
 .t-tabs.t-tabs--top .t-tabs__scroll {
@@ -8,11 +10,11 @@ page {
 }
 
 .home-page-header {
-  background: linear-gradient(#fff, #f5f5f5);
+  /* background: linear-gradient(#fff, #f5f5f5); */
 }
 
 .home-page-container {
-  background: #f5f5f5;
+  /* background: #f5f5f5; */
 }
 
 .home-page-container,
@@ -32,13 +34,13 @@ page {
 }
 
 .home-page-header .swiper-wrap {
-  margin-top: 20rpx;
+  /* margin-top: 20rpx; */
 }
 
 .home-page-header .t-image__swiper {
   width: 100%;
   height: 300rpx;
-  border-radius: 10rpx;
+  /* border-radius: 10rpx; */
 }
 
 .home-page-container .t-tabs {
@@ -60,6 +62,7 @@ page {
 .home-page-container .tab.order-nav .order-nav-item.scroll-width {
   min-width: 165rpx;
 }
+
 .home-page-container .tab .order-nav-item.active {
   color: #fa550f !important;
 }

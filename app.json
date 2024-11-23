@@ -28,7 +28,8 @@
     "pages/order/fill-tracking-no/index",
     "pages/order/delivery-detail/index",
     "pages/order/invoice/index",
-    "pages/usercenter/name-edit/index"
+    "pages/usercenter/name-edit/index",
+    "pages/charging-detail/index"
   ],
   "tabBar": {
     "custom": true,
@@ -43,11 +44,11 @@
       },
       {
         "pagePath": "pages/goods/category/index",
-        "text": "分类"
+        "text": "扫码充电"
       },
       {
-        "pagePath": "pages/cart/index",
-        "text": "购物车"
+        "pagePath": "pages/order/order-list/index",
+        "text": "订单"
       },
       {
         "pagePath": "pages/usercenter/index",
@@ -55,7 +56,9 @@
       }
     ]
   },
-  "requiredPrivateInfos": ["chooseAddress"],
+  "requiredPrivateInfos": [
+    "chooseAddress"
+  ],
   "lazyCodeLoading": "requiredComponents",
   "usingComponents": {},
   "window": {

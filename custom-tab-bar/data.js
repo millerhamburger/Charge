@@ -1,18 +1,17 @@
-export default [
-  {
+export default [{
     icon: 'home',
     text: '首页',
     url: 'pages/home/home',
   },
   {
-    icon: 'sort',
-    text: '分类',
+    icon: 'scanning',
+    text: '扫码充电',
     url: 'pages/goods/category/index',
   },
   {
     icon: 'cart',
-    text: '购物车',
-    url: 'pages/cart/index',
+    text: '订单',
+    url: 'pages/order/order-list/index',
   },
   {
     icon: 'person',

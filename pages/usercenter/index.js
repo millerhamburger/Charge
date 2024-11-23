@@ -1,46 +1,51 @@
-import { fetchUserCenter } from '../../services/usercenter/fetchUsercenter';
+import {
+  fetchUserCenter
+} from '../../services/usercenter/fetchUsercenter';
 import Toast from 'tdesign-miniprogram/toast/index';
 
 const menuData = [
-  [
-    {
-      title: '收货地址',
-      tit: '',
-      url: '',
-      type: 'address',
-    },
-    {
-      title: '优惠券',
-      tit: '',
-      url: '',
-      type: 'coupon',
-    },
-    {
-      title: '积分',
-      tit: '',
-      url: '',
-      type: 'point',
-    },
-  ],
-  [
-    {
+  // [{
+  //     title: '收货地址',
+  //     tit: '',
+  //     url: '',
+  //     type: 'address',
+  //   },
+  //   {
+  //     title: '优惠券',
+  //     tit: '',
+  //     url: '',
+  //     type: 'coupon',
+  //   },
+  //   {
+  //     title: '积分',
+  //     tit: '',
+  //     url: '',
+  //     type: 'point',
+  //   },
+  // ],
+  [{
       title: '帮助中心',
       tit: '',
       url: '',
       type: 'help-center',
     },
     {
-      title: '客服热线',
+      title: '用户协议',
       tit: '',
       url: '',
-      type: 'service',
-      icon: 'service',
+      type: 'user-agreement',
     },
+    // {
+    //   title: '客服热线',
+    //   tit: '',
+    //   url: '',
+    //   type: 'service',
+    //   icon: 'service',
+    // },
   ],
 ];
 
-const orderTagInfos = [
-  {
+const orderTagInfos = [{
     title: '待付款',
     iconName: 'wallet',
     orderNum: 0,
@@ -144,12 +149,18 @@ Page({
     );
   },
 
-  onClickCell({ currentTarget }) {
-    const { type } = currentTarget.dataset;
+  onClickCell({
+    currentTarget
+  }) {
+    const {
+      type
+    } = currentTarget.dataset;
 
     switch (type) {
       case 'address': {
-        wx.navigateTo({ url: '/pages/usercenter/address/list/index' });
+        wx.navigateTo({
+          url: '/pages/usercenter/address/list/index'
+        });
         break;
       }
       case 'service': {
@@ -177,7 +188,9 @@ Page({
         break;
       }
       case 'coupon': {
-        wx.navigateTo({ url: '/pages/coupon/coupon-list/index' });
+        wx.navigateTo({
+          url: '/pages/coupon/coupon-list/index'
+        });
         break;
       }
       default: {
@@ -197,22 +210,32 @@ Page({
     const status = e.detail.tabType;
 
     if (status === 0) {
-      wx.navigateTo({ url: '/pages/order/after-service-list/index' });
+      wx.navigateTo({
+        url: '/pages/order/after-service-list/index'
+      });
     } else {
-      wx.navigateTo({ url: `/pages/order/order-list/index?status=${status}` });
+      wx.navigateTo({
+        url: `/pages/order/order-list/index?status=${status}`
+      });
     }
   },
 
   jumpAllOrder() {
-    wx.navigateTo({ url: '/pages/order/order-list/index' });
+    wx.navigateTo({
+      url: '/pages/order/order-list/index'
+    });
   },
 
   openMakePhone() {
-    this.setData({ showMakePhone: true });
+    this.setData({
+      showMakePhone: true
+    });
   },
 
   closeMakePhone() {
-    this.setData({ showMakePhone: false });
+    this.setData({
+      showMakePhone: false
+    });
   },
 
   call() {
@@ -222,17 +245,37 @@ Page({
   },
 
   gotoUserEditPage() {
-    const { currAuthStep } = this.data;
-    if (currAuthStep === 2) {
-      wx.navigateTo({ url: '/pages/usercenter/person-info/index' });
-    } else {
-      this.fetUseriInfoHandle();
-    }
+    // const { currAuthStep } = this.data;
+    // if (currAuthStep === 2) {
+    //   wx.navigateTo({ url: '/pages/usercenter/person-info/index' });
+    // } else {
+    //   this.fetUseriInfoHandle();
+    // }
+    wx.login({
+      success: (res) => {
+        console.log("login info", res)
+        console.log("code", res.code)
+        wx.authorize({
+          scope: 'scope.userInfo',
+          success() {
+            wx.getUserInfo({
+              success: (userInfo) => {
+                console.log(userInfo)
+              }
+            })
+          }
+        })
+
+      },
+    })
   },
 
   getVersionInfo() {
     const versionInfo = wx.getAccountInfoSync();
-    const { version, envVersion = __wxConfig } = versionInfo.miniProgram;
+    const {
+      version,
+      envVersion = __wxConfig
+    } = versionInfo.miniProgram;
     this.setData({
       versionNo: envVersion === 'release' ? version : envVersion,
     });

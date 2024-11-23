@@ -1,0 +1,19 @@
+<view class="charging-station">
+  <view class="charging-station-left">
+    <view class="charging-station-title">苏州国网充电站</view>
+    <view class="charging-station-address">苏州市-高新区-邓蔚路站</view>
+    <view>
+      <t-tag class="tag-margin-right" variant="light">有服务费</t-tag>
+      <t-tag class="tag-margin-right" variant="light">直流电桩</t-tag>
+      <t-tag class="tag-margin-right" variant="light">交流电桩</t-tag>
+      <t-tag theme="success" variant="light">1元kW·h</t-tag>
+    </view>
+    <view class="charging-station-statu">
+      <t-link class="tag-margin-right" size="small" theme="success" content="空闲250" />
+      <t-link size="small" theme="warning" content="充电2" />
+    </view>
+  </view>
+  <view class="charging-station-right">
+    <t-button theme="primary" class="button" bind:tap="toDetail">去充电</t-button>
+  </view>
+</view>

@@ -1,0 +1,45 @@
+/* components/charging-station/index.wxss */
+.charging-station {
+  background-color: rgba(255, 255, 255, 1);
+  padding: 32rpx 24rpx;
+  border-radius: 12rpx;
+  display: flex;
+  align-items: stretch;
+  justify-content: start;
+}
+
+.charging-station-left {
+  flex: 1;
+}
+
+.charging-station-right {
+  display: flex;
+  align-items: center;
+}
+
+.charging-station-right .button {
+  border-radius: 50%;
+  width: 100rpx;
+  height: 100rpx;
+  font-size: 24rpx;
+}
+
+.charging-station-title {
+  font-size: 36rpx;
+  margin-bottom: 6rpx;
+}
+
+.charging-station-address {
+  font-size: 28rpx;
+  color: #999999;
+  margin-bottom: 6rpx;
+}
+
+.tag-margin-right {
+  margin-right: 8rpx;
+}
+
+.charging-station-statu {
+  display: flex;
+  margin-top: 6rpx;
+}

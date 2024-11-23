@@ -14,7 +14,8 @@ Component({
     },
     desc: {
       type: String,
-      value: '全部订单',
+      // value: '全部订单',
+      value: ""
     },
     isTop: {
       type: Boolean,
