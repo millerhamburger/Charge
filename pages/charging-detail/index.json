@@ -1,4 +1,9 @@
 {
   "navigationBarTitleText": "智能充电插座",
-  "usingComponents": {}
+  "usingComponents": {
+    "t-button": "tdesign-miniprogram/button/button",
+    "t-tag": "tdesign-miniprogram/tag/tag",
+    "t-divider": "tdesign-miniprogram/divider/divider",
+    "custom-radio": "/components/radio/index"
+  }
 }

@@ -5,7 +5,16 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    contents: [{
+      label: "当前电价",
+      value: "1元kW·h"
+    }, {
+      label: "电桩类型",
+      value: "交流"
+    }, {
+      label: "充电功率",
+      value: "7kW"
+    }]
   },
 
   /**

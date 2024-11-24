@@ -1,1 +1,74 @@
 /* pages/charging-detail/index.wxss */
+page {
+  background-color: #f0f0f0;
+}
+
+.header {
+  padding: 72rpx 24rpx;
+  height: 360rpx;
+  background-color: #3B82F6;
+  color: #fff;
+  border-bottom-left-radius: 80%;
+  border-bottom-right-radius: 80%;
+}
+
+.header>.title {
+  font-size: 36rpx;
+  margin-bottom: 12rpx;
+}
+
+.header>.address {
+  font-size: 28rpx;
+  color: #f0f0f0;
+}
+
+.header>.content {
+  padding: 48rpx 24rpx;
+  background-color: #fff;
+  border-radius: 16rpx;
+  margin-top: 72rpx;
+  color: #333;
+}
+
+.header>.content>.num {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header>.content>.content {
+  display: flex;
+  align-items: stretch;
+  margin-top: 48rpx;
+}
+
+.header>.content>.content>.item {
+  flex: 1;
+  text-align: center;
+  border-right: 1px solid #f0f0f0;
+}
+
+.header>.content>.content>.item:last-child {
+  border-right: none;
+}
+
+.header>.content>.content>.item>.label {
+  color: #999;
+  font-size: 24rpx;
+  margin-bottom: 12rpx;
+}
+
+.main {
+  background-color: #fff;
+  padding: 48rpx 24rpx;
+  border-radius: 16rpx;
+  margin: 24rpx;
+  margin-top: 48rpx;
+}
+
+.footer {
+  position: fixed;
+  left: 24rpx;
+  right: 24rpx;
+  bottom: 24rpx;
+}

@@ -1,0 +1,7 @@
+<!--components/radio/index.wxml-->
+<t-radio-group t-class="horizontal-box" value="{{value}}" bind:change="onChange">
+  <view wx:for="{{3}}" wx:key="index" class="card {{value == index ? 'card--active' : ''}}">
+    <t-icon wx:if="{{value1 == index}}" prefix="wr" name="check" t-class="card__icon" />
+    <t-radio value="{{index}}" label="单选" icon="none" borderless />
+  </view>
+</t-radio-group>

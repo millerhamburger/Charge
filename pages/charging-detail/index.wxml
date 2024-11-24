@@ -1,2 +1,29 @@
 <!--pages/charging-detail/index.wxml-->
-<text>pages/charging-detail/index.wxml</text>
+<view class="header">
+  <view class="title">苏州国网充电站</view>
+  <view class="address">苏州市-高新区-邓蔚路站</view>
+  <view class="content">
+    <view class="num">编号 11111111111
+      <t-tag theme="success" variant="light">空闲</t-tag>
+    </view>
+    <view class="content">
+      <view class="item" wx:for="{{contents}}" wx:key="index" wx:for-item="content">
+        <view class="label">{{content.label}}</view>
+        <view class="value">{{content.value}}</view>
+      </view>
+    </view>
+  </view>
+</view>
+
+<view class="main">
+  <view style="margin-bottom: 16rpx;">充电桩编号</view>
+  <custom-radio></custom-radio>
+  <view style="margin-bottom: 16rpx;">充电度数</view>
+  <custom-radio></custom-radio>
+  <view style="margin-bottom: 16rpx;">充电枪编号</view>
+  <custom-radio></custom-radio>
+</view>
+
+<view class="footer">
+  <t-button theme="primary" block>立即充电</t-button>
+</view>
