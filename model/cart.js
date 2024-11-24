@@ -7,7 +7,7 @@ export function genCartGroupData() {
       storeGoods: [
         {
           storeId: '1000',
-          storeName: '云Mall深圳旗舰店',
+          storeName: '苏州国网充电站',
           storeStatus: 1,
           totalDiscountSalePrice: '9990',
           promotionGoodsList: [
@@ -33,7 +33,7 @@ export function genCartGroupData() {
                   thumb:
                     'https://cdn-we-retail.ym.tencent.com/tsr/goods/dz-3a.png',
                   title:
-                    '腾讯极光盒子4智能网络电视机顶盒6K千兆网络机顶盒4K高分辨率',
+                    '充电桩1号',
                   primaryImage:
                     'https://cdn-we-retail.ym.tencent.com/tsr/goods/dz-3a.png',
                   quantity: 1,
@@ -69,7 +69,7 @@ export function genCartGroupData() {
                   thumb:
                     'https://cdn-we-retail.ym.tencent.com/tsr/goods/nz-09a.png',
                   title:
-                    '白色短袖连衣裙荷叶边裙摆宽松韩版休闲纯白清爽优雅连衣裙',
+                    '充电桩2号',
                   primaryImage:
                     'https://cdn-we-retail.ym.tencent.com/tsr/goods/nz-09a.png',
                   quantity: 1,
@@ -105,7 +105,7 @@ export function genCartGroupData() {
                   thumb:
                     'https://cdn-we-retail.ym.tencent.com/tsr/goods/muy-3a.png',
                   title:
-                    '带帽午休毯虎年款多功能加厚加大加绒简约多功能午休毯连帽披肩',
+                    '充电桩6号',
                   primaryImage:
                     'https://cdn-we-retail.ym.tencent.com/tsr/goods/muy-3a.png',
                   quantity: 13,
@@ -141,7 +141,7 @@ export function genCartGroupData() {
                   thumb:
                     'https://cdn-we-retail.ym.tencent.com/tsr/goods/gh-2b.png',
                   title:
-                    '不锈钢刀叉勺套装家用西餐餐具ins简约耐用不锈钢金色银色可选',
+                    '充电桩3号',
                   primaryImage:
                     'https://cdn-we-retail.ym.tencent.com/tsr/goods/gh-2b.png',
                   quantity: 1,
@@ -191,7 +191,7 @@ export function genCartGroupData() {
                   isSelected: 0,
                   thumb:
                     'https://cdn-we-retail.ym.tencent.com/tsr/goods/nz-17a.png',
-                  title: '运动连帽拉链卫衣休闲开衫长袖多色运动细绒面料运动上衣',
+                  title: '充电桩7号',
                   primaryImage:
                     'https://cdn-we-retail.ym.tencent.com/tsr/goods/nz-17a.png',
                   quantity: 1,
@@ -227,7 +227,7 @@ export function genCartGroupData() {
                   thumb:
                     'https://cdn-we-retail.ym.tencent.com/tsr/goods/dz-2a.png',
                   title:
-                    '迷你便携高颜值蓝牙无线耳机立体声只能触控式操作简约立体声耳机',
+                    '充电桩5号',
                   primaryImage:
                     'https://cdn-we-retail.ym.tencent.com/tsr/goods/dz-2a.png',
                   quantity: 1,
@@ -281,7 +281,7 @@ export function genCartGroupData() {
           skuId: '135691631',
           isSelected: 1,
           thumb: 'https://cdn-we-retail.ym.tencent.com/tsr/goods/nz-08b.png',
-          title: '纯色纯棉休闲圆领短袖T恤纯白亲肤厚柔软细腻面料纯白短袖套头T恤',
+          title: '充电桩4号',
           primaryImage:
             'https://cdn-we-retail.ym.tencent.com/tsr/goods/nz-08b.png',
           quantity: 8,

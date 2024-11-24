@@ -6,7 +6,7 @@ export default [{
   {
     icon: 'scanning',
     text: '扫码充电',
-    url: 'pages/goods/category/index',
+    url: 'pages/scan/index',
   },
   {
     icon: 'cart',

@@ -59,7 +59,7 @@ export function genSettleDetail(params) {
       storeGoodsList: [
         {
           storeId: '1000',
-          storeName: '云Mall深圳旗舰店',
+          storeName: '苏州国网充电站',
           remark: null,
           goodsCount: 1,
           deliveryFee: '0',

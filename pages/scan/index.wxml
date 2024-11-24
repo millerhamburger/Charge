@@ -1,0 +1,2 @@
+<!--pages/scan/index.wxml-->
+<camera style="height: 100vh"></camera>

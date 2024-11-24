@@ -17,7 +17,7 @@ const orderResps = [
       orderNo: '132222623132329291',
       goodsInfo: {
         goodsName:
-          '迷你便携高颜值蓝牙无线耳机立体声只能触控式操作简约立体声耳机',
+          '充电桩5号',
         skuImage: 'https://cdn-we-retail.ym.tencent.com/tsr/goods/dz-2a.png',
         specInfo: [
           {
@@ -55,7 +55,7 @@ const orderResps = [
       boughtQuantity: 1,
       orderNo: '132222623132329291',
       goodsInfo: {
-        goodsName: '白色短袖连衣裙荷叶边裙摆宽松韩版休闲纯白清爽优雅连衣裙',
+        goodsName: '充电桩2号',
         skuImage: 'https://cdn-we-retail.ym.tencent.com/tsr/goods/nz-09a.png',
         specInfo: [
           {
@@ -93,7 +93,7 @@ const orderResps = [
       boughtQuantity: 1,
       orderNo: '132222623132329291',
       goodsInfo: {
-        goodsName: '腾讯极光盒子4智能网络电视机顶盒6K千兆网络机顶盒4K高分辨率',
+        goodsName: '充电桩1号',
         skuImage: 'https://cdn-we-retail.ym.tencent.com/tsr/goods/dz-3a.png',
         specInfo: [
           {
@@ -131,7 +131,7 @@ const orderResps = [
       boughtQuantity: 1,
       orderNo: '132222623132329291',
       goodsInfo: {
-        goodsName: '带帽午休毯虎年款多功能加厚加大加绒简约多功能午休毯连帽披肩',
+        goodsName: '充电桩6号',
         skuImage: 'https://cdn-we-retail.ym.tencent.com/tsr/goods/muy-3a.png',
         specInfo: [
           {
@@ -169,7 +169,7 @@ const orderResps = [
       boughtQuantity: 1,
       orderNo: '132222623132329291',
       goodsInfo: {
-        goodsName: '运动连帽拉链卫衣休闲开衫长袖多色运动细绒面料运动上衣',
+        goodsName: '充电桩7号',
         skuImage: 'https://cdn-we-retail.ym.tencent.com/tsr/goods/nz-17a.png',
         specInfo: [
           {
@@ -208,7 +208,7 @@ const orderResps = [
       orderNo: '130169571554503755',
       goodsInfo: {
         goodsName:
-          '纯色纯棉休闲圆领短袖T恤纯白亲肤厚柔软细腻面料纯白短袖套头T恤',
+          '充电桩4号',
         skuImage: 'https://cdn-we-retail.ym.tencent.com/tsr/goods/nz-08b.png',
         specInfo: [
           {

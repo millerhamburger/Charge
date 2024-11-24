@@ -29,7 +29,8 @@
     "pages/order/delivery-detail/index",
     "pages/order/invoice/index",
     "pages/usercenter/name-edit/index",
-    "pages/charging-detail/index"
+    "pages/charging-detail/index",
+    "pages/scan/index"
   ],
   "tabBar": {
     "custom": true,
@@ -43,7 +44,7 @@
         "text": "首页"
       },
       {
-        "pagePath": "pages/goods/category/index",
+        "pagePath": "pages/scan/index",
         "text": "扫码充电"
       },
       {

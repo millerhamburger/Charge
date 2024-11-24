@@ -2,6 +2,7 @@
   box-sizing: border-box;
   font-size: 24rpx;
 }
+
 .wr-goods-card__main {
   position: relative;
   display: flex;
@@ -10,22 +11,26 @@
   background: transparent;
   padding: 16rpx 0rpx;
 }
+
 .wr-goods-card.center .wr-goods-card__main {
   align-items: center;
   justify-content: center;
 }
+
 .wr-goods-card__thumb {
   flex-shrink: 0;
   position: relative;
   width: 176rpx;
   height: 176rpx;
 }
+
 .wr-goods-card__thumb-com {
   width: 176rpx;
   height: 176rpx;
   border-radius: 8rpx;
   overflow: hidden;
 }
+
 .wr-goods-card__thumb:empty {
   display: none;
   margin: 0;
@@ -33,17 +38,19 @@
 
 .wr-goods-card__body {
   display: flex;
-  margin: 0 0 0 16rpx;
+  /* margin: 0 0 0 16rpx; */
   flex-direction: row;
   flex: 1 1 auto;
   min-height: 176rpx;
 }
+
 .wr-goods-card__long_content {
   display: flex;
   flex-direction: column;
   overflow: hidden;
   flex: 1 1 auto;
 }
+
 .wr-goods-card__long_content .goods_tips {
   width: 100%;
   margin-top: 16rpx;
@@ -53,6 +60,7 @@
   line-height: 32rpx;
   font-weight: bold;
 }
+
 .wr-goods-card__title {
   flex-shrink: 0;
   font-size: 28rpx;
@@ -64,12 +72,15 @@
   overflow: hidden;
   word-break: break-word;
 }
+
 .wr-goods-card__title__prefix-tags {
   display: inline-flex;
 }
+
 .wr-goods-card__title__prefix-tags .prefix-tag {
   margin: 0 8rpx 0 0;
 }
+
 .wr-goods-card__desc {
   font-size: 24rpx;
   color: #f5f5f5;
@@ -79,6 +90,7 @@
   -webkit-line-clamp: 2;
   overflow: hidden;
 }
+
 .wr-goods-card__specs__desc,
 .wr-goods-card__specs__text {
   font-size: 24rpx;
@@ -87,11 +99,13 @@
   color: #999999;
   margin: 8rpx 0;
 }
+
 .wr-goods-card__specs__desc {
   display: flex;
   align-self: flex-start;
   flex-direction: row;
 }
+
 .wr-goods-card__specs__desc-text {
   height: 100%;
   max-width: 380rpx;
@@ -101,12 +115,14 @@
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 1;
 }
+
 .wr-goods-card__specs__desc-icon {
   line-height: inherit;
   margin-left: 8rpx;
   font-size: 24rpx;
   color: #bbb;
 }
+
 .wr-goods-card__specs__text {
   display: -webkit-box;
   -webkit-box-orient: vertical;
@@ -115,12 +131,14 @@
   text-overflow: ellipsis;
   word-break: break-all;
 }
+
 .wr-goods-card__tags {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   margin: 16rpx 0 0 0;
 }
+
 .wr-goods-card__tag {
   color: #fa550f;
   background: transparent;
@@ -136,6 +154,7 @@
   word-break: keep-all;
   text-overflow: ellipsis;
 }
+
 .wr-goods-card__short_content {
   display: flex;
   flex-direction: column;
@@ -143,11 +162,13 @@
   align-items: flex-end;
   margin: 0 0 0 46rpx;
 }
+
 .wr-goods-card__price__prefix {
   order: 0;
   color: #666;
   margin: 0;
 }
+
 .wr-goods-card__price {
   white-space: nowrap;
   font-weight: bold;
@@ -157,6 +178,7 @@
   margin: 0;
   line-height: 48rpx;
 }
+
 .wr-goods-card__origin-price {
   white-space: nowrap;
   font-weight: normal;
@@ -165,6 +187,7 @@
   font-size: 24rpx;
   margin: 0;
 }
+
 .wr-goods-card__num {
   white-space: nowrap;
   order: 4;
@@ -172,22 +195,27 @@
   color: #999;
   margin: 20rpx 0 0 auto;
 }
+
 .wr-goods-card__num__prefix {
   color: inherit;
 }
+
 .wr-goods-card__add-cart {
   order: 3;
   margin: auto 0 0 auto;
 }
+
 .wr-goods-card.horizontal-wrap .wr-goods-card__thumb {
   width: 192rpx;
   height: 192rpx;
   border-radius: 8rpx;
   overflow: hidden;
 }
+
 .wr-goods-card.horizontal-wrap .wr-goods-card__body {
   flex-direction: column;
 }
+
 .wr-goods-card.horizontal-wrap .wr-goods-card__short_content {
   flex-direction: row;
   align-items: center;
@@ -197,35 +225,44 @@
 .wr-goods-card.horizontal-wrap .wr-goods-card__num {
   margin: 0 0 0 auto;
 }
+
 .wr-goods-card.vertical .wr-goods-card__main {
   padding: 0 0 22rpx 0;
   flex-direction: column;
 }
+
 .wr-goods-card.vertical .wr-goods-card__thumb {
   width: 340rpx;
   height: 340rpx;
 }
+
 .wr-goods-card.vertical .wr-goods-card__body {
   margin: 20rpx 20rpx 0 20rpx;
   flex-direction: column;
 }
+
 .wr-goods-card.vertical .wr-goods-card__long_content {
   overflow: hidden;
 }
+
 .wr-goods-card.vertical .wr-goods-card__title {
   line-height: 36rpx;
 }
+
 .wr-goods-card.vertical .wr-goods-card__short_content {
   margin: 20rpx 0 0 0;
 }
+
 .wr-goods-card.vertical .wr-goods-card__price {
   order: 2;
   color: #fa4126;
   margin: 20rpx 0 0 0;
 }
+
 .wr-goods-card.vertical .wr-goods-card__origin-price {
   order: 1;
 }
+
 .wr-goods-card.vertical .wr-goods-card__add-cart {
   position: absolute;
   bottom: 20rpx;
